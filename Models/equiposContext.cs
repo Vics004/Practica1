@@ -9,5 +9,8 @@ namespace Practica1.Models
         }
 
         public DbSet<equipos> equipos { get; set; }
+        public DbSet<marcas> marcas { get; set; }
+        public DbSet<tipo_equipo> tipo_equipo { get; set; }
+        public DbSet<estados_equipos> estados_equipo { get; set; }
     }
 }
